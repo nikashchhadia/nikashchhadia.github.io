@@ -1,0 +1,75 @@
+#about {
+    background-color: rgba(54, 100, 105, 0.501);
+    padding: 80px 0;
+}
+
+#description h2,
+#coursework h2,
+#interests h2 {
+    margin-bottom: 10px;
+}
+
+#description {
+    width: 54.6%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #f0f0f07d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#description p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+
+#coursework {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f07d;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#interests {
+    flex: 0.5;
+    padding: 20px;
+    background-color: #f0f0f07d;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#coursework ul {
+    list-style-type: ">  ";
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transform: translate(50px, 0%);
+}
+
+#interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#coursework ul li {
+    margin-bottom: 5px;
+}
+
+#interests ul li {
+    margin-bottom: 21px;
+}

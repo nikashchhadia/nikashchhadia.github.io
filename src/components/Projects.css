@@ -1,0 +1,35 @@
+#projects {
+  padding: 30px 0;
+  background-color: rgba(224, 137, 106, 0.778);
+  margin: auto;
+}
+
+#projects h2 {
+  text-align: center;
+  padding: 20px;
+}
+  
+.project {
+  text-align: left;
+  padding: 20px;
+  padding-top: 0.5px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #f0f0f07d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fa-fade {
+  animation: fa-fade 2s infinite;
+}
+
+@keyframes fa-fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}

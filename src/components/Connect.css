@@ -1,0 +1,21 @@
+#connect {
+    background-color: #5d947f;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#connect a {
+    color: white;
+    background-color: #080723;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 25px;
+    margin: 50px;
+}
+
+#connect a:hover {
+    background-color: #ddd;
+    color: black;
+}
