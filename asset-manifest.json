@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b34fc9a8.css",
+    "main.js": "/static/js/main.54593f8c.js",
+    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/chicago.png": "/static/media/chicago.50e55dc4f84c4b4f6746.png",
+    "index.html": "/index.html",
+    "main.b34fc9a8.css.map": "/static/css/main.b34fc9a8.css.map",
+    "main.54593f8c.js.map": "/static/js/main.54593f8c.js.map",
+    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34fc9a8.css",
+    "static/js/main.54593f8c.js"
+  ]
+}
