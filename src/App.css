@@ -1,16 +1,8 @@
-.App {
+#App {
   text-align: center;
-}
-
-body {
   font-family: 'Montserrat';
   letter-spacing: .05rem;
   font-weight: 500;
   margin: 0;
   padding: 0;
-}
-
-section {
-  padding: 40px 0;
-  text-align: center;
 }
