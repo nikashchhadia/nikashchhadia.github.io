@@ -51,7 +51,7 @@ const Projects = () => {
       <div className="project">
         <h3>
           Personal Website &nbsp;
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://nikashchhadia.github.io/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLink} fade />
           </a>
         </h3>
