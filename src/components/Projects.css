@@ -13,12 +13,42 @@
   text-align: left;
   padding: 20px;
   padding-top: 0.5px;
-  width: 500px;
   margin: auto;
   margin-bottom: 30px;
   background-color: #f0f0f07d;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+  color: rgb(80, 30, 135);
+}
+
+@media (width <= 400px) {
+  #projects {
+    font-size: 12px;
+  }
+  .project {
+    max-width: 80vw;
+  }
+}
+
+@media (width > 400px) {
+  #projects {
+    font-size: 14px;
+  }
+  .project {
+    max-width: 80vw;
+  }
+}
+
+@media (width > 580px) {
+  #projects {
+    font-size: 17px;
+  }
+  .project {
+    max-width: 500px;
+  }
 }
 
 .fa-fade {

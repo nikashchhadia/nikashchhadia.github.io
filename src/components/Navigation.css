@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 1000;
 }
@@ -12,9 +12,26 @@
 #navigation a {
     color: white;
     text-align: center;
-    font-size: 13px;
     padding: 20px 0;
     flex: 1;
+}
+
+@media (width <= 500px) {
+    #navigation a {
+        font-size: 10px;
+    }
+}
+
+@media (width > 500px) {
+    #navigation a {
+        font-size: 11px;
+    }
+}
+
+@media (width > 800px) {
+    #navigation a {
+        font-size: 13px;
+    }
 }
   
 #navigation a:hover {

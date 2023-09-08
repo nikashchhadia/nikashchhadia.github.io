@@ -3,14 +3,11 @@
     padding: 80px 0;
 }
 
-#description h2,
-#coursework h2,
-#interests h2 {
-    margin-bottom: 10px;
+#about h2 {
+    margin: 10px;
 }
 
 #description {
-    width: 54.6%;
     margin: auto;
     margin-bottom: 20px;
     padding: 30px;
@@ -21,31 +18,93 @@
 
 #description p {
     text-align: left;
-    font-size: 18px;
     line-height: 1.5;
 }
 
-#boxes {
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    margin: auto;
+@media (width <= 370px) {
+    #box {
+        max-width: 90vw;
+        font-size: 11px;
+        margin: 0 auto;
+    }
+    #boxes {
+        max-width: 90vw;
+        font-size: 8px;
+        margin: 0 auto;
+    }
+    #coursework {
+        margin-bottom: 20px;
+    }
+    #coursework ul {
+        transform: translate(16px, 0%);
+    }
 }
 
-#coursework {
-    flex: 1;
-    padding: 20px;
-    background-color: #f0f0f07d;
-    margin: 0 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+@media (width > 370px) {
+    #box {
+        max-width: 90vw;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    #boxes {
+        max-width: 90vw;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    #coursework {
+        margin-bottom: 20px;
+    }
+    #coursework ul {
+        transform: translate(18px, 0%);
+    }
 }
 
+@media (width > 580px) {
+    #description {
+        max-width: 460px;
+        font-size: 17px;
+    }
+    #boxes {
+        max-width: 520px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    #coursework {
+        margin-bottom: 20px;
+    }
+    #coursework ul {
+        transform: translate(50px, 0%);
+    }
+}
+
+@media (width > 880px) {
+    #description {
+        max-width: 800px;
+        font-size: 19px;
+    }
+    #boxes {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        max-width: 880px;
+        font-size: 16px;
+    }
+    #coursework {
+        flex: 1;
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+    #interests {
+        flex: 0.5;
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+
+#coursework,
 #interests {
-    flex: 0.5;
     padding: 20px;
     background-color: #f0f0f07d;
-    margin: 0 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -57,8 +116,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    transform: translate(50px, 0%);
 }
 
 #interests ul {

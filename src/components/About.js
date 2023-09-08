@@ -4,14 +4,16 @@ import './About.css';
 const About = () => {
   return (
     <section id="about">
-      <div id="description">
-        <h2>About Me</h2>
-        <p>Hi! I'm Nikash, a passionate computer science and mathematics student at Stanford University.
-        Hailing from the Chicagoland area, I thrive on exploring the synergy between math and technology,
-        holding a keen interest in fields like machine learning and data science. Eager to dive into cutting-edge
-        advancements and innovation, I aim to leverage my education and skills and venture into a career path in
-        these dynamic fields. Ultimately, in this rapidly evolving technological landscape, I am excited to embrace
-        challenges, learn voraciously, and collaborate with brilliant minds.</p>
+      <div id="box">
+        <div id="description">
+          <h2>About Me</h2>
+          <p>Hi! I'm Nikash, a passionate computer science and mathematics student at Stanford University.
+          Hailing from the Chicagoland area, I thrive on exploring the synergy between math and technology,
+          holding a keen interest in fields like machine learning and data science. Eager to dive into cutting-edge
+          advancements and innovation, I aim to leverage my education and skills and venture into a career path in
+          these dynamic fields. Ultimately, in this rapidly evolving technological landscape, I am excited to embrace
+          challenges, learn voraciously, and collaborate with brilliant minds.</p>
+        </div>
       </div>
       <div id="boxes">
         <div id="coursework">
